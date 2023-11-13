@@ -21,7 +21,7 @@ int	main(int ac, char **av)
 	while (--i > 0)
 	{
 		j = 0;
-		while (av[i][j] && ac)
+		while (av[i][j])
 		{
 			write(1, &av[i][j], 1);
 			j++;
