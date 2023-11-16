@@ -24,6 +24,9 @@ void	ft_putcar(int a, int b, int c)
 void	ft_print_comb(void)
 {
 	int	a;
+	int	b;
+	int	c;
+
 	a = '0';
 	while (a <= '7')
 	{
